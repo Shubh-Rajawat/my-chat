@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+/* .active {
+    color: #7269ef;
+} */
+
+.pointer {
+    cursor: pointer;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #282c34;
+    overflow: hidden;
+}

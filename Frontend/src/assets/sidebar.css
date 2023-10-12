@@ -1,0 +1,117 @@
+/* Sidebar css start */
+a {
+    color: rgb(210, 207, 207);
+}
+
+.sidebar-wrapper {
+    background-color: #36404A;
+    width: 4rem;
+    height: 100vh;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 2rem;
+}
+
+.side-tools {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.side-tools li {
+    padding: 1rem 0;
+}
+
+.sidebar-wrapper aside {
+    padding: 1rem 0;
+}
+
+.side-tools li a:hover {
+    color: #7269ef;
+}
+
+/* sidebar css end */
+
+/* Modal css */
+
+.modal-wrapper {
+    color: #fff;
+    background-color: #2e3337;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    width: 25rem;
+    height: 21.875rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+
+.head img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.btn1 {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 48%;
+    padding: 1rem;
+    background-color: #EC2453;
+    color: #fff;
+}
+
+.btn2 {
+    font-size: 1rem;
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 48%;
+    padding: 1rem;
+    background-color: #05B184;
+    color: #fff;
+
+}
+
+
+/* sidebar modal */
+.profile-modal {
+    text-align: center;
+}
+
+.profile-info {
+    display: grid;
+    place-items: center;
+}
+
+.profile-info img {
+
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.desc {
+    margin-top: 1rem;
+    height: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.closebtn {
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.profile-modal-image {
+    border-radius: 50%;
+
+}
+
+.profile-modal-name {}

@@ -1,0 +1,469 @@
+.chatroom {
+    display: grid;
+    grid-template-columns: 0.4fr 3fr 8fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+}
+
+.chatroom-wrapper {
+    background-color: #262E35;
+}
+
+/* ***************************************************************************************** */
+/* header css start */
+.active1 {
+    color: #7269ef;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.chat-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom: #929090 solid 1px;
+}
+
+.receiver-info {
+    color: rgb(223, 230, 236);
+    font-size: 25px;
+    vertical-align: middle;
+    display: flex;
+    gap: 10px;
+    padding: 15px 5px 2px 0px;
+    font-style: italic;
+}
+
+/* .receiver-image {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-right: .7rem;
+} */
+
+.navtools {
+    margin: 1.4rem 1rem .4rem 1rem;
+    font-size: 1.5rem;
+}
+
+.navtools a {
+    margin: 0 1rem;
+}
+
+/* header css end */
+/* ***************************************************************************************** */
+/* chatbody css start */
+
+
+.chat-input-wrap {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    color: #fff;
+    place-items: center;
+    /* background-color: #2e3337; */
+    border-radius: 3.125rem;
+    margin-top: 1rem;
+
+}
+
+.chat-input {
+    display: flex;
+    justify-content: center;
+}
+
+.chat-input input {
+    color: #fff;
+    background-color: #2e3337;
+    border-radius: 3.125rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    width: 46rem;
+}
+
+.chat-input-wrap form {
+    font-size: 2rem;
+}
+
+.send-btn {
+    width: 8rem;
+    background-color: #7269ef;
+    border-radius: 3.125rem;
+    font-size: large;
+    outline: none;
+    border: none;
+}
+
+.emoji {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+}
+
+.emoji:hover {
+    color: #7269ef;
+}
+
+.chats {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    color: #fff;
+    /* display: grid;
+        place-items: end; */
+    margin-bottom: 0rem;
+    padding: 0 .5rem 0 .5rem;
+    overflow-y: scroll;
+}
+
+.requesting {
+    width: 100%;
+    height: 85vh;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    /* margin-bottom: 0rem;
+    padding: 0 .5rem 0 .5rem; */
+    /* overflow-y: scroll; */
+}
+
+.requesting>div {
+    text-align: center;
+}
+
+.right {
+    max-width: 600px;
+    word-wrap: break-word;
+    background-color: #7269ef;
+    padding: 1rem;
+    border-radius: 1rem 0rem 0rem 0rem;
+    margin: 1rem;
+    clip-path: polygon(0% 0%, 100% 0%, 101% 76%, 101% 76%, 101% 101%, 75% 75%, 0% 75%);
+}
+
+.msgg1 {
+    max-width: 600px;
+    word-wrap: break-word;
+    background-color: #7269ef;
+    padding: 1rem;
+    border-radius: 1rem 0rem 0rem 0rem;
+    margin: 1rem;
+    clip-path: polygon(0% 0%, 100% 0%, 101% 76%, 101% 76%, 101% 101%, 75% 75%, 0% 75%);
+    display: inline;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.left {
+    position: absolute;
+    left: 1px;
+    padding: 1rem;
+    border-radius: 1rem 0rem 0rem 0rem;
+    margin: 1rem;
+    clip-path: polygon(0% 0%, 100% 0%, 101% 76%, 101% 76%, 101% 101%, 75% 75%, 0% 75%);
+}
+
+
+.msgg {
+    max-width: 600px;
+    word-wrap: break-word;
+    background-color: #478d9e;
+    padding: 1rem;
+    border-radius: 0rem 1rem 0rem 0rem;
+    margin: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 16% 79%, 0 100%, 0% 50%);
+    display: inline;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.msg-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chat-right {
+
+    /* float: right; */
+    display: flex;
+    justify-content: end;
+
+}
+
+.chat-left {
+    /* float: left; */
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+/* chatbody css end */
+/* ********************/
+/* UserDashboard css start */
+
+.userdashboard-wrapper {
+    background-color: #303841;
+
+}
+
+.user-header {
+    margin: 20px 4px 20px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.search-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+.search-input {
+    width: 100%;
+    padding: 0px 10px;
+    border: 4px solid #7269ef;
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+    outline: none;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background: none;
+}
+
+.search-button {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    cursor: pointer;
+    border: 4px solid #7269ef;
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+    background: none;
+    font-size: 20px;
+    border-left: 4px solid #7269ef;
+
+
+}
+
+.container {
+    width: 35%;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Abel'); */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.users {
+    margin-top: 20px;
+}
+
+.card {
+    width: 390px;
+    height: 65px;
+    background-color: rgb(233, 228, 228);
+    /* background: linear-gradient(#f8f8f8, #fff); */
+    /* box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4); */
+    /* border-radius: 6px; */
+    overflow: hidden;
+    position: relative;
+    margin: 2px auto;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+.card .additional {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(rgb(114, 105, 239), rgb(114, 105, 239));
+    transition: width 0.2s;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.card.green .additional {
+    background: linear-gradient(#92bCa6, #A2CCB6);
+}
+
+.card:hover .additional {
+    width: 100%;
+
+}
+
+.card:hover .general {
+    color: white;
+
+}
+
+.card .additional .user-card {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.card .additional .user-card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: -2px;
+    height: 80%;
+    border-left: 2px solid rgba(0, 0, 0, 0.25);
+
+}
+
+.card .additional .user-card .level,
+.card .additional .user-card .points {
+    top: 15%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.125rem 0.75rem;
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+
+
+
+
+.card .additional .more-info {
+    width: 300px;
+    float: left;
+    position: absolute;
+    left: 150px;
+    height: 100%;
+}
+
+.card .additional .more-info h4 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.card.green .additional .more-info h4 {
+    color: #224C36;
+}
+
+.card .additional .coords {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.card.green .additional .coords {
+    color: #325C46;
+}
+
+.card .additional .coords span+span {
+    float: right;
+}
+
+.card .additional .stats {
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    top: auto;
+    color: #fff;
+}
+
+.card.green .additional .stats {
+    color: #325C46;
+}
+
+.card .additional .stats>div {
+    flex: 1;
+    text-align: center;
+}
+
+.card .additional .stats i {
+    display: block;
+}
+
+.card .additional .stats div.title {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card .additional .stats div.value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.card .additional .stats div.value.infinity {
+    font-size: 2.5rem;
+}
+
+.card .general {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: -13px;
+    left: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 0;
+    color: black;
+}
+
+.card .general .more {
+    position: absolute;
+    bottom: -1rem;
+    left: 130px;
+    font-size: 0.9em;
+}
+
+/* UserDashboard css end */
+/* ***************************************************************************************** */
+
+/* emojiPicker CSS */
+.emojiBox {
+    position: absolute;
+    bottom: 65px;
+    left: 250px;
+}
+
+.emojiCloseButton {
+    font-size: 18px;
+    font-weight: 900;
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    cursor: pointer;
+}
+
+.emojiCloseButton:hover {
+    color: tomato;
+}
